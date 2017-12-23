@@ -43,8 +43,9 @@ const stories = [
 const App = () => {
   return (
     <div className='App'>
-      {/* add a Header component (already created) */}
+      <Header />
       {/* add a Banner component (already created) */}
+      <Banner />
       <Stories  storiesTitle="Today's Top Stories"
                 stories={stories} />
       {/* add another Stories component with storiesTitle 'Pop Culture', and just pass down the same stories array as the above Stories component (already created but will need some editing) */}

@@ -15,7 +15,9 @@ const Banner = () => {
                   buttonText='Learn more' />
         </div>
       </div>
-      <div className='banner-right'></div>
+      <div className='banner-right'>
+        {/* add banner img here */}
+      </div>
     </div>
   )
 }
