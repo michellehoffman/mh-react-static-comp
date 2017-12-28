@@ -24,3 +24,18 @@ h1 {
   font-weight: bolder;
   margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .Header {
+    flex-wrap: wrap;
+  }
+
+  a {
+    width: 100%;
+  }
+
+  h1 {
+    margin: auto;
+    margin: 20px auto;
+  }
+}

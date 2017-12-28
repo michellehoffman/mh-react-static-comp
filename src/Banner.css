@@ -21,15 +21,45 @@
 
 .banner-left {
   width: 50%;
+  min-width: 385px;
 }
 
 .banner-right {
   background-image: url(http://68.media.tumblr.com/bd9c40368eed9d1d994bfc716aafec48/tumblr_inline_ocdletfMwY1sse7kl_500.png);
   background-size: cover;
   width: 50%;
+  min-width: 385px;
 }
 
 .button-holder {
   display: flex;
   justify-content: flex-start;
+}
+
+@media screen and (max-width: 1100px) {
+  .Banner {
+    flex-wrap: wrap;
+  }
+
+  .banner-left,
+  .banner-right {
+    width: 100%;
+  }
+
+  .banner-right {
+    height: 325px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .Banner {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner-left,
+  .banner-right {
+    min-width: 0;
+  }
 }
